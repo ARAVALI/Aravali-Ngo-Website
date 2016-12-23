@@ -1,135 +1,907 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <title>Aravali</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>ARAVALI | Home</title>
+  <meta name="Keywords" content="Home" />
+  <meta name="Description" content="Home" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link type='text/css' href='home.css' rel='stylesheet' />
+  <link type='text/css' href='ms.css' rel='stylesheet' />
+</head>
 
-            <link rel="stylesheet" href="css/home1.css">
-
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-                  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-                  integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-            <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-            <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/3.2.1/assets/font-awesome/css/font-awesome.css">
-        </head>
-<body>
+<body>  
+<!-- Header starts -->
 <header>
-    <h1><strong>ARAVALI</strong></h1>
-    <p style="font-size:1.5rem;">Association for rural advancement through voluntary action and local involvement</p>
-</header>
-<section id="main-navigation-container">
-    <nav>
-        <section class="navigation-items">
+    <div class="container-fluid row">
+        <div id="LOGO" class="col-xs-3 col-sm-2 col-md-2">
+          <img  class="img-responsive" src="Images/aravali-logo.PNG">
+        </div>
+        <div class="col-xs-9 col-sm-8 col-md-8">
+          <p id="full-name"><b>Association for Rural Advancement through Voluntary Action and Local Involvement</b></p>
+          <p  id="head-details">(Established by the Govt. of Rajasthan to promote voluntary action for socio-economic development of the State)</p>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2">
+          <form id="search-bar">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+  </header>
+<!-- Header ends -->
+<!-- Navigation starts -->
+<div class="container-fluid">
+    <button class="btn btn-block toggleMenu" href="#">Menu</button>
+    <ul class="nav">
+        <li>
+            <a href ="index.html">Home</a>
+        </li>
+        <li>
+            <a>About Us</a>
+        <ul>
+        <li>
+            <a href="Roles_ARAVALI_Performs.html">Roles ARAVALI Performs</a>
+            </li>
+            <li>
+                <a href="Organisational_Structure.html">Organisational Structure</a>
+            </li>
+            <li>
+                <a href="Operational_Structure.html">Operational Structure</a>
+            </li>
+            <li>
+                <a>Governance</a>
+            <ul>
+                <li><a href="Governance.html">Governance</a></li>
+                <li><a href="Executive_Committee.html">Executive Committee</a></li>
+                <li><a href="Governing_Council.html">Governing Council</a></li>
+                <li><a href="General_Body.html">General Body</a></li>
+            </ul>
+        </li>
+            <li>
+                <a>Reports</a>
+                <ul>
+                    <li><a href="Financial_Statement.html">Financial Statements</a></li>
+                    <li><a href="Annual_Reports.html">Annual Reports</a></li>
+                    <li><a href="Perspective_Plan.html">Perespective Plan</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="Contact_us.html">Contact Us</a>
+            </li>
+            </ul>
+        </li>
+        <li>
+            <a>Thrust Area</a>
             <ul>
                 <li>
-                    <a href ="#">Home</a>
-                </li>
-                <li><a href="#">Thrust Area<i class="fa fa-angle-down"></i></a>
-                    <section class="submenu-container">
-                        <div class="list1">
-                            <a href="#" class="category-title"><h2>Capicity Enhancement
-                                </h2></a>
-                            <ul class="submenu">
-                                <li><a href="#">COSAP</a></li>
-                                <li><a href="#">Perspective Plan</a></li>
-                                <li><a href="#">Livelihood Prespective Plan</a></li>
-                                <li><a href="#">Fellowship</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="list">
-                            <a href="#" class="category-title"><h2>Sector Building
-                                </h2></a>
-                            <ul class="submenu">
-                                <li><a href="#">Internship</a></li>
-                                <li><a href="#">Human Resource Support</a></li>
-                                <li><a href="#">Organisational Development</a></li>
-                                <li><a href="#">Flagship Training Program</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="list">
-                            <a href="#" class="category-title"><h2>Poverty & Targeting</h2> </a>
-                        </div>
-
-                        <div class="list">
-                            <a href="#" class="category-title"><h2>Knowledge Building
-                                </h2></a>
-                            <ul class="submenu">
-                                <li><a href="#">Sectral Research</a></li>
-                                <li><a href="#">Publications</a></li>
-
-                            </ul>
-                        </div>
-                        <div class="list">
-                            <a href="#" class="category-title"><h2>Innovation
-                                </h2></a>
-                            <ul class="submenu">
-                                <li><a href="#">Family Livelihood Resource Center(FLRC)</a></li>
-                                <li><a href="#">Women farmer producing company</a></li>
-                                <li><a href="#">Essential Learning On Health</a></li>
-                                <li><a href="#">Community Based Micro Finance</a></li>
-                            </ul>
-                        </div>
-                    </section>
-                </li>
-                <li><a href="#">Partners<i class="fa fa-angle-down"></i></a>
-                    <section class="submenu-container">
-                        <div class="list">
-                            <a href="#" class="category-title"><h2>Ngo partners
-                                </h2></a>
-                            <ul class="submenu">
-                                <li><a href="#">New Registration</a></li>
-                                <li><a href="#">partners list</a></li>
-                            </ul>
-                        </div>
-                        <div class="list">
-                            <a href="#" class="category-title"><h2>Donors
-                            </h2></a>
-                        </div>
-                    </section>
+                    <a>Capacity Enhancement</a>
+                    <ul>
+                         <li><a href="Livelihood Programme Building.html"></a></li>
+                        <li><a href="COSAP.html">COSAP</a></li>
+                        <li><a href="Prespective_Plan.html">Perspective Plan</a></li>
+                        <li><a href="Livelihood_Prespective_Plan.html">Livelihood Prespective Plan</a></li>
+                        <li><a href="Sectral_Programme_Focus.html">Sectoral Programme Focus</a></li>
+                    </ul>
                 </li>
                 <li>
-                    <a href ="#">Carrier</a>
+                    <a href="Capacity_Enhancement_Sector_Building.html">Cacacity Enhancement Sector Building</a>
                 </li>
                 <li>
-                    <a href ="#"> Ngo's Registration</a>
+                    <a>Sector-Building</a>
+                    <ul>                        
+                        <li><a href="Human_Resource_Report.html">Human Resource Support</a></li>
+                        <li><a href="Organisational_Development.html">Organisational Development</a></li>
+                        <li><a href="Flagship_Training_Programme.html">Flagship Training Program</a></li>
+                    </ul>
                 </li>
-                <li><a href="#">Publications<i class="fa fa-angle-down"></i></a>
-                    <section class="submenu-container">
-                        <div class="list">
-                            <a href="#" class="category-title"><h2>Studies
-                                </h2></a>
-                            <ul class="submenu">
-                                <li><a href="#">District Human Development Report</a></li>
-                                <li><a href="#">WASSAN Study</a></li>
-                                <li><a href="#">Sector Reform Study</a></li>
-                                <li><a href="#">Participitory processes in watershed Development Programme</a></li>
-                            </ul>
-                        </div></section>
+                <li>
+                    <a>Enabling Decentralisation & Convergence</a>
+                    <ul>
+                        <li><a href="Decentralised_Planning.html">Decentralised Planning</a></li>
+                        <li><a href="PPP_Guideline_for_sectors.html">PPP Guildelines for Sectors</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <a>Innovations</a>
+                    <ul>
+                        <li><a href="Entitlement_Tracking_and_Facilitation.html">Entitlement Tracking and Facilation</a></li>
+                        <li><a href="FLRC.html">Family Livelihood Resource Center(FLRC)</a></li>
+                        <li><a href="Women_Farmer_Producing_Company.html">Women Farmer Producing Company</a></li>
+                        <li><a href="ELH">Essential Learning On Health</a></li>
+                        <li><a href="FFS_for-Goat_Based_Livelihood_Promotions.html">FFS for Goat Based Livelihood Promotions</a></li>
+                        <li><a href="Community_Based_Micro-Finance.html">Community Based Micro Finance</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href ="Poverty&Targeting.html">Poverty & Targeting</a>
+                </li>
+                <li>
+                    <a>Knowledge Building</a>
+                    <ul>
+                        <li><a href="Sectoral_Research.html">Sectral Research</a></li>
+                    </ul>
+                </li>
+                </ul>
+        </li>
+            <li>
+                <a>Partners</a>
+                <ul>
+                    <li>
+                        <a>Ngo Partners</a>
+                        <ul>
+                            <li><a href="NGO_Registration.html">New Registration</a></li>
+                            <li><a href="NGO_Partners.html">Partners Lists</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Donors.html">Donors</a>
+                        </li>
+                    </ul>
+        </li>
+
+        <li>
+            <a>Offerings</a>
+            <ul>
+                <li>
+                    <a href="Ngo_Assessment.html">Ngo Assessment</a>
+                </li>
+                <li>
+                    <a href="Human_And_Institutional_Capacity_Enhancement.html">Human And Institutional Capacity Enhancement</a>
+                </li>
+                <li>
+                    <a href="Thematic_Training.html">Thematic Training</a>
+                </li>
+                <li>
+                    <a>Fellowship</a>
+                    <ul>
+                        <li><a href="ARAVALI_Fellowship.html">ARAVALI Fellowship</a></li>
+                        <li><a href="Fellowships_Offered.html">Fellowships Offered</a></li>
+                        <li><a href="Current_Fellows.html">Current Fellows</a></li>
+                        <li><a href="Previous_Fellows.html">Previous Fellows</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Decentralised_Planning_Process.html">Decentralised Planning Process</a>
+                </li>
+                <li>
+                    <a href="Research_&_Studies.html">Research & Studies</a>
+                </li>
+                <li>
+                    <a href="Consultancy_Services.html">Consultancy Services</a>
                 </li>
             </ul>
-        </section>
-    </nav>
-</section>
+        </li>
+        <li>
+            <a>Career</a>
+            <ul>
+                <li>
+                    <a href="Volunteer_Apply.html">Volunteer Apply</a>
+                </li>
+                <li>
+                    <a href="Apply_for_Job.html">Apply For Job</a>
+                </li>
+                <li>
+                    <a href="Apply_for_Internship.html">Apply For Internship</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a>Opportunities</a>
+            <ul>
+                <li>
+                    <a href="NGO_Registration.html">Ngo Registration</a>
+                </li>
+                <li>
+                    <a href="Support_From_ARAVALI.html">Support From ARAVALI</a>
+                </li>
+                <li>
+                    <a href="Institutional_Exposures.html">Institutional Exposures</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a>Publications</a>
+            <ul>
+                <li>
+                    <a href="Research.html">Research</a>
+                </li>
+                <li>
+                    <a>Studies</a>
+                    <ul>
+                    
+                    	<li><a href="Participatory_Processes_In_Watershed_Development_Programme.html">Participatory Processes in Watershed Development Programme</a></li>
+                    	<li><a href="Preparing_Database_of_Best_2-3_SGSY_Products_in_the_State_of_Rajasthan.html">Preparing Database of Best 2-3 SGSY Products in the State of Rajasthan</a></li>
+                        <li><a href="District_Human_Development_Report.html">District Human Development Report</a></li>
+                        <li><a href="Impact_Assessment_of_Rural_Development_Programme.html">Impact Assessment of Rural Development Programme</a></li>
+                        <li><a href="WASSAN_Study.html">WASSAN Study</a></li>
+                        <li><a href="Sector_Reform_Study.html">Sector Reform Study</a></li>
+                        <li><a href="Magra_Area_Development_Project.html">Magra Area Development Project</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Periodicals </a>
+                    <ul>
+                        <li><a href="ADFS.html">ARAVALI Development Feature Service(ADFS)</a></li>
+                        <li><a href="Pahal_Logon_ki.html">Pahal Logon ki</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Information Leaflets </a>
+                    <ul>
+                        <li><a href="Livelihood_Profiles.html">Livelihood Profiles</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Practionars Manual </a>
+                    <ul>
+                        <li><a href="Farmer_Field_School.html">Farmer Field School - Practionars Manual</a></li>
 
-<img style="width:100%; height: 500px;" src="4.jpg">
-</body>
-</html></title>
-</head>
-<body>
+                    </ul>
+                </li>
+                <li>
+                    <a>Photo Gallery</a>
+                    <ul>
+                        <li><a href="ARAVALI_Capicity_Building.html">ARAVALI Capicity Building</a></li>
+                        <li><a href="photo_gallery_farmer_.html">Farmer Field School</a></li>
+                        <li><a href="photo_gallery_flrc.html">FLRC</a></li>
+                        <li><a href="photo_gallery_stackholder.html">Stackholder Interface</a></li>
+                        <li><a href="photo_gallery_other.html ">Others</a></li>
+                    </ul>
+                </li>  
+
+
+            
+
+            </ul>            
+        </li>
+        <li>
+            <a href ="Donate_form.html">Donate</a>
+        </li>
+        </ul>
+    </div>
+    <script>
+$(document).ready(function() {
+$(".toggleMenu").css("display", "none");
+$(".nav li").hover(function() {
+$(this).addClass('hover');
+}, function() {
+$(this).removeClass('hover');
+});
+});
+</script>
+<script>
+    $(document).ready(function() {
+    var ww = document.body.clientWidth;
+    if (ww < 800) {
+        $(".toggleMenu").css("display", "inline-block");
+        $(".nav li a").click(function() {
+            $(this).parent("li").toggleClass('hover');
+        });
+    } else {
+        $(".toggleMenu").css("display", "none");
+        $(".nav li").hover(function() {
+            $(this).addClass('hover');
+        }, function() {
+            $(this).removeClass('hover');
+        });
+    }
+});
+</script>
+<script>
+    $(".nav li a").each(function() {
+        if ($(this).next().length > 0) {
+            $(this).addClass("parent");
+        };
+    })
+    if (ww < 800) {
+        $(".toggleMenu").css("display", "inline-block");
+        $(".nav li a.parent").click(function(e) {
+            e.preventDefault();
+            $(this).parent("li").toggleClass('hover');
+        });
+    } else {
+        $(".toggleMenu").css("display", "none");
+        $(".nav li").hover(function() {
+            $(this).addClass('hover');
+        }, function() {
+            $(this).removeClass('hover');
+        });
+     }
+
+</script>
+<script>
+    $(".toggleMenu").click(function(e) {
+        e.preventDefault();
+        $(".nav").toggle();
+    });
+
+    if (ww < 800) {
+        $(".toggleMenu").css("display", "inline-block");
+        $(".nav").hide();
+    } else {
+        $(".toggleMenu").css("display", "none");
+        $(".nav li").hover(function() {
+            $(this).addClass('hover');
+        }, function() {
+            $(this).removeClass('hover');
+        });
+    }
+</script>
+<script>
+    var ww = document.body.clientWidth;
+    $(document).ready(function() {
+        $(".toggleMenu").click(function(e) {
+            e.preventDefault();
+            $(".nav").toggle();
+        });
+        $(".nav li a").each(function() {
+            if ($(this).next().length > 0) {
+                $(this).addClass("parent");
+            };
+        })
+        adjustMenu();
+    });
+    function adjustMenu() {
+        if (ww < 800) {
+            $(".toggleMenu").css("display", "inline-block");
+            $(".nav").hide();
+            $(".nav li a.parent").click(function(e) {
+                e.preventDefault();
+                $(this).parent("li").toggleClass('hover');
+            });
+        } else {
+            $(".toggleMenu").css("display", "none");
+            $(".nav li").hover(function() {
+                $(this).addClass('hover');
+            }, function() {
+                $(this).removeClass('hover');
+            });
+        }
+    }
+    $(window).bind('resize orientationchange', function() {
+        ww = document.body.clientWidth;
+        adjustMenu();
+    });
+
+</script>
+<script>
+    $(document).ready(function() {
+        $(".toggleMenu").click(function(e) {
+            e.preventDefault();
+            $(this).toggleClass("active");
+            $(".nav").toggle();
+        });
+    });
+
+    if (ww < 800) {
+        $(".toggleMenu").css("display", "inline-block");
+        if (!$(".toggleMenu").hasClass("active")) {
+            $(".nav").hide();
+        } else {
+            $(".nav").show();
+        }
+        $(".nav li").unbind('mouseenter mouseleave');
+        $(".nav li a.parent").unbind("click").bind("click", function(e){
+            e.preventDefault();
+            $(this).parent("li").toggleClass('hover');
+        });
+    } else {
+        $(".toggleMenu").css("display", "none");
+        $(".nav").show();
+        $(".nav li").removeClass("hover");
+        $(".nav li a").unbind("click");
+        $(".nav li").unbind('mouseenter mouseleave').bind('mouseenter mouseleave', function() {
+            $(this).toggleClass('hover');
+        });
+    }
+</script>
+<!-- Navigation ends -->
+
+
+<!-- Carousel starts -->
+<div>
+  <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="Images/carousel/a.jpg" alt="">
+      </div>
+
+      <div class="item">
+        <img src="Images/carousel/b.jpg" alt="">
+        
+      </div>
+
+      <div class="item">
+        <img src="Images/carousel/c.jpg" alt="">
+        
+      </div>
+
+      <div class="item">
+        <img src="Images/carousel/d.jpg" alt="">
+        
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<!-- Carousel Ends -->
+
+<!-- first section - INTRO & NEWS -->
+<div class="pad-section">
+  <div class="container">
+    <div class="row">
+		<div class="col-md-3 col-sm-3 col-xs-12">
+				<div style="height: 180px; width: 200px;" class="thumbnail">
+				   <img style="height: 170px; width: 200px;" src="Images/cm.jpg">
+				   <h5 class="caption"><a style="color: blue;"  href="http://rajassembly.nic.in/PreCM.htm" target="_blank">Smt. Vasundhara Raje<br>Hon'ble Chief Minister</a></h5>
+				</div>
+				</br></br></br></br>
+				<div style="height: 180px; width: 200px;" class="thumbnail">
+					  <img style="height: 170px; width: 200px;" src="Images/hcm.jpg">
+					  <h5 style="color: blue;" class="caption">Sh. Rajendra Singh<br/>Hon'ble Cabinet Minister and Chairman, Aravali</h5>
+				</div>
+        </br></br></br></br>	
+		</div> 		 
+		<div class="col-md-5 col-sm-5 col-xs-12">
+		    <div class="panel panel-primary">
+				<div class="panel-heading">
+				   <h2 class="panel-title text-center">Vision</h2>
+				</div>
+				<div class="panel-body lead">
+				"All round and large scale development requires a combination of capacities and efforts which cannot be provided by any single agency or system. To ensure that the benefits of development reach the poor, it is necessary the government and NGOs pool their strengths and become partners."
+				</div>
+		    </div>
+        <br><br>
+			  <div class="panel panel-primary">
+				<div class="panel-heading">
+					<h2 class="panel-title text-center">Mission </h2>
+				</div>
+				<div class="panel-body lead">
+					ARAVALI intends to ensure that there are an increased number of effective voluntary organisations working closely with marginalized communities in every district of Rajasthan and that an enabling environment is developed within which the government and these organisations can form effective partnerships.
+				</div>
+			</div>
+		</div>				
+		<div class="col-md-4 col-sm-4 col-xs-12 pull-right">
+		      <div class="row">
+  			     <div class="col-md-4 col-sm-4 col-xs-5 ">
+  			       <div class="controls">
+  			          <a class="left fa fa-chevron-left btn-content btn" data-slide="prev" href="#carousel-example1" style="color: white; background-color: #337ab7 ;"  > </a>
+  			          <a class="right fa fa-chevron-right btn-content btn" href="#carousel-example1" style="color: white; background-color: #337ab7;" data-slide="next" id="next"></a>
+  			       </div>
+  			     </div>
+  			     <div class="col-md-8 col-sm-8 col-xs-7">
+  			       <h4 style="color: #337ab7;" class="pull-right">Latest News|Updates
+  			       </h4>
+  			     </div>
+		     </div>
+      <div class="row">
+ 		     <div id="carousel-example1" class="carousel slide" data-ride="carousel">
+		       <div class="carousel-inner">
+		            <div class="item active">
+		               <div class="row">
+		                    <div class="col-xs-12">
+		                       <div class="fact-content">
+		                           <div class="col-md-3 col-sm-3 col-xs-3">
+		                              <div class="fact-news">
+		                                <img src="http://icons.iconarchive.com/icons/designbolts/free-multimedia/1024/News-Mic-iPhone-icon.png" class="img-responsive" title="Lates news">
+		                              </div>
+		                            </div>
+		                            <div class="col-md-9 col-sm-9 col-xs-9">
+		                                <div class="text-right2 text-right3">
+		                                <a  style="color:#000" target="_blank" class="ht" href="Documents/Research/114664.pdf" target="_blank">
+		                                <p style="font-size: 15px;"><strong>Inviting Quotation for Web Development along with Socio Economic Format. Last date for receiving the application is 22nd December 2016 </strong></p>
+		                                </a>
+		                                </div>
+		                           </div>
+		                        </div>
+		                    </div>
+                        <hr>
+                        <div class="col-xs-12">
+                           <div class="fact-content">
+                               <div class="col-md-3 col-sm-3 col-xs-3">
+                                  <div class="fact-news">
+                                    <img src="http://icons.iconarchive.com/icons/designbolts/free-multimedia/1024/News-Mic-iPhone-icon.png" class="img-responsive" title="Lates news">
+                                  </div>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                    <div class="text-right2 text-right3">
+                                    <a  style="color:#000" target="_blank" class="ht" href="Documents/351161.pdf">
+                                    <p style="font-size: 15px;"><strong> Study on Red Sandstone Quarry Workers of Karauli, a Report Prepared by ARAVALI for ‘Beyond the Resource Curse: Charting a Path to Sustainable Livelihood for Mineral-Dependent Communities’ ARC Discovery Project , The Australian National University </strong></p>
+                                    </a>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                        <hr>
+		                    <div class="col-xs-12">
+		                       <div class="fact-content">
+		                           <div class="col-md-3 col-sm-3 col-xs-3">
+		                              <div class="fact-news">
+		                                <img src="http://www.educategirls.ngo/images/learning-outcomes-icon.png" class="img-responsive" title="Lates news">
+		                              </div>
+		                            </div>
+		                            <div class="col-md-9 col-sm-9 col-xs-9">
+		                                <div class="text-right2 text-right3">
+		                                <a  style="color:#000" target="_blank" class="ht" href="Documents/201739.jpg">
+		                                <p style="font-size: 15px;"><strong> Honble Minister, Rural Development & Panchayati Raj, GoR & Chairman, ARAVALI launched ARAVALI Websi</strong></p>
+		                                </a>
+		                                </div>
+		                           </div>
+		                        </div>
+		                    </div>
+		                    <hr>
+		               </div>               
+		            </div>
+		         
+		        <div class="item ">
+		           <div class="row">
+		            <div class="col-xs-12">
+		                       <div class="fact-content">
+		                           <div class="col-md-3 col-sm-3 col-xs-3">
+		                              <div class="fact-news">
+		                                <img src="http://www.educategirls.ngo/images/learning-outcomes-icon.png" class="img-responsive" title="Lates news">
+		                              </div>
+		                            </div>
+		                            <div class="col-md-9 col-sm-9 col-xs-9">
+		                                <div class="text-right2 text-right3">
+		                                <a  style="color:#000" target="_blank" class="ht" href="Documents/622412.pdf">
+		                                <p style="font-size: 15px;"><strong>Study on Limestone Quarry Workers of Kota, a Report Prepared by ARAVALI for ‘Beyond the Resource Curse: Charting a Path to Sustainable Livelihood for Mineral-Dependent Communities’ ARC Discovery Project , The Australian National University </strong></p>
+		                                </a>
+		                                </div>
+		                           </div>
+		                        </div>
+		                    </div>
+		                    <hr>
+		                    <div class="col-xs-12">
+		                       <div class="fact-content">
+		                           <div class="col-md-3 col-sm-3 col-xs-3">
+		                              <div class="fact-news">
+		                                <img src="http://www.educategirls.ngo/images/learning-outcomes-icon.png" class="img-responsive" title="Lates news">
+		                              </div>
+		                            </div>
+		                            <div class="col-md-9 col-sm-9 col-xs-9">
+		                                <div class="text-right2 text-right3">
+		                                <a  style="color:#000" target="_blank" class="ht" href="#">
+		                                <p style="font-size: 15px;"><strong> Local Water Educator to address Eco & WaSH Future, An initiative of ARAVALI supported by DST, New Delhi to “Build grassroot human and institutional capacity for mobilizing communities on Eco-WaSH issues".See the Water Educators in action</strong></p>
+		                                </a>
+		                                </div>
+		                           </div>
+		                        </div>
+		                    </div>
+		                    <hr>
+			           </div>               
+		           </div>     
+		                  
+		       </div>
+		     </div>        
+		  </div>
+		</div>
+      </div>
+    </div>
+</div>
+<!-- first section ends -->
+
+<!-- Our Programs -->
+<!-- Parallax background -->
+  <div id="parallax1" >
+    <div class="text-vcenter">
+      <h1 style="color: #ffffff">Our Programs</h1>
+    </div>
+  </div>
+<!-- Parallax background ends -->
+  <div class="pad-section">
+  <div class="container">
+    <ul class="tile-blocks programmes">
+      <li class="col-md-4">
+        <a href="capacity-enhancement">
+          <div class="item capacity-enhancement">
+            <div class="details">
+              <h3><a style="color: #fff;" href="">Capacity Enhancement</a></h3>
+              
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="col-md-4">
+        <a href="poverty-targeting">
+          <div class="item poverty-targeting">
+            <div class="details">
+              <h3><a style="color: #fff;" href="">Poverty Targeting</a></h3>
+              
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="col-md-4">
+        <a href="sector-building">
+          <div class="item sector-building">
+            <div class="details">
+              <h3><a style="color: #fff;" href="">Sector Building</a></h3>
+              
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="col-md-4">
+        <a href="knowledge-building">
+          <div class="item knowledge-building">
+            <div class="details">
+              <h3><a style="color: #fff;" href="">Knowledge Building</a></h3>
+              
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="col-md-4">
+        <a href="child-labour">
+          <div class="item child-labour">
+            <div class="details">
+              <h3><a style="color: #fff;" href="">Child Labour</a></h3>
+              
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="col-md-4">
+        <a href="">
+          <div class="item ">
+            <div class="details">
+              <h3><a style="color: #fff;" href=""></a></h3>
+              
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  </div>
+<!-- Our programs ends -->
+
+<!-- Partners -->
+<div id="parallax2" >
+    <div class="text-vcenter">
+      <h1 style="color: #ffffff">Partners</h1>
+    </div>
+  </div>
+<div class="brand-content">
+	<div class="container">
+		<div class="visible-xs">
+  <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel2" data-slide-to="1"></li>
+      <li data-target="#myCarousel2" data-slide-to="2"></li>
+      <li data-target="#myCarousel2" data-slide-to="4"></li>
+      <li data-target="#myCarousel2" data-slide-to="5"></li>
+      <li data-target="#myCarousel2" data-slide-to="6"></li>
+      <li data-target="#myCarousel2" data-slide-to="7"></li>
+      <li data-target="#myCarousel2" data-slide-to="8"></li>
+      <li data-target="#myCarousel2" data-slide-to="9"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/Agha-Khan-Foundation.jpg"></a>
+      </div>
+
+      <div class="item">
+       	<a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/Europe logo.png"></a>
+      </div>
+
+      <div class="item">
+        <a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/PrayasLogos.gif"></a>
+      </div>
+
+      <div class="item">
+        <a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/SRKPS NEW logo.jpg"></a>
+      </div>
+
+      <div class="item">
+        <a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/UNDP logo.jpg"></a>
+      </div>
+
+      <div class="item">
+        <a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/gvnml-logo.jpg"></a>
+      </div>
+
+      <div class="item">
+        <a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/wasco.jpg"></a>
+      </div>
+
+      <div class="item">
+        <a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/prayatna.jpg"></a>
+      </div>
+
+      <div class="item">
+        <a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/sssr.jpg"></a>
+      </div>
+
+      <div class="item">
+        <a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/unicef logo.jpg"></a>
+      </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+
+<div class="hidden-xs">
+  <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel1" class="active"></li>
+      <li data-target="#myCarousel1"></li>
+      <li data-target="#myCarousel1"></li>
+      <li data-target="#myCarousel1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <div class="row">
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/Agha-Khan-Foundation.jpg"></a></div>
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/Europe logo.png"></a></div>
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/PrayasLogos.gif"></a></div>
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/SRKPS NEW logo.jpg"></a></div>
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/UNDP logo.jpg"></a></div>
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/gvnml-logo.jpg"></a></div>
+</div>
+      </div>
+
+      <div class="item">
+       	<div class="row">
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/progress.jpg"></a></div>
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/paul hamlyn.jpg"></a></div>
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/prayatna.jpg"></a></div>
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/sssr.jpg"></a></div>
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/swera.jpg"></a></div>
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/unicef logo.jpg"></a></div>
+</div>
+      </div>
+
+      <div class="item">
+        <div class="row">
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/urmul.jpg"></a></div>
+	<div class="col-md-2 col-sm-2 col-xs-12"><a target="_blank" href=""><img class="img-responsive our-img center-block" src="Images/partners/wasco.jpg"></a></div>
+
+    </div>
+  </div>
+
+	<!-- Left and right controls -->
+    <a style="width: 5%" class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a style="width: 5%" class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<!-- Partner Section ends -->
+<!-- fixed social icons starts -->
+<div  class=" fixed-social-icons hidden-xs ">              
+              <a href="https://www.facebook.com/aravali.jaipur.9" target="_blank" class="facebook">
+              <span class="fa-stack fa-lg">
+               <i class="fa fa-circle-thin fa-stack-2x" style="color: white"></i>
+               <i class="fa fa-facebook fa-1x" style="color: blue"></i>
+              </span>
+              </a>
+
+              
+             
+             <a href="https://twitter.com/ARAVALI_JAIPUR" target="_blank" class="twitter">
+             <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-thin fa-stack-2x" style="color: white"></i>
+              <i class="fa fa-twitter fa-stack-1x" style="color: blue"></i>
+             </span>
+            </a>
+           
+            <a href="https://www.youtube.com/channel/UCyUif5wEgPLqz_5YBHlDiHg" target="_blank" class="youtube">
+             <span class="fa-stack fa-lg">
+             <i class="fa fa-circle-thin fa-stack-2x" style="color: white"></i>
+             <i class="fa fa-youtube fa-1x" style="color:red "></i></a>
+
+            
+          <a href="mailto:aravali-rj@nic.in">
+
+           <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-thin fa-stack-2x" style="color: white"></i>
+              <i class="fa fa-envelope-o fa-stack-1x" style="color: blue "></i>
+             </span>
+           </a> 
+          </div>
+<!-- fixed social icons ends -->
+
+<!-- footer starts -->
+<footer>
+      <div style="" class="col-md-4 col-sm-4 col-xs-12 pull-right follow-us">
+        <div class="title">Follow Us On</div>
+            <a href="https://www.facebook.com/aravali.jaipur.9" target="_blank"class="facebook">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x" style="color: white"></i>
+                <i class="fa fa-facebook fa-1x" style="color: blue"></i>
+              </span>
+            </a>
+            <a href="https://twitter.com/ARAVALI_JAIPUR" target="_blank" class=" twitter">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x" style="color: white"></i>
+                <i class="fa fa-twitter fa-stack-1x" style="color: blue"></i>
+              </span>
+            </a>
+
+            <a href="https://www.youtube.com/channel/UCyUif5wEgPLqz_5YBHlDiHg" target="_blank" class="youtube">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle-thin fa-stack-2x" style="color: white"></i>
+                  <i class="fa fa-youtube fa-1x" style="color:red "></i>
+            </a>
+                
+            <a href="mailto:aravali-rj@nic.in">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle-thin fa-stack-2x" style="color: white"></i>
+                  <i class="fa fa-envelope-o fa-stack-1x" style="color: blue"></i>
+                </span>
+            </a>
+        </div>
+      </div>
+      <br>   
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <p>Patel Bhawan, HCM RIPA (O.T.S.),Jawahar Lal Nehru Marg,Jaipur - 302017<br>        
+          Contact: Call-Telefax: +91-141-2701941,+91-141-2710556,
+          Email:aravali-rj@nic.in<br>
+          Designed & Developed by <a style="color: blue" href="http://www.iiitvadodara.ac.in/" target="_blank"> IIITV Students </a>
+        <p>      
+        <p>&copy; 2016 Aravali.org.in &middot; <a style="color: blue"  href="#">Privacy</a> &middot; <a style="color: blue"  href="#">Terms</a></p>
+      </div>
+
+    </footer>
+<!-- footer ends -->
 
 </body>
 </html>
